@@ -14,14 +14,23 @@ $.ajax({
 
  function show (element) {
       let print = " ";
-      let printPeople = ' ';
+      let printPeople="";
+
       element.forEach(item =>{
            let movieTitle = item.title;
            console.log(movieTitle);
            let people = item.characters;
+           //people.forEach(item=>{
+               //let peopleUrl = (character.url);
+               //console.log(peopleUrl);
+           //})
            console.log(people);
            let cronology = item.episode_id;
            console.log(cronology +=" episode");
+
+          // printPeople +=
+       // `<a>
+        //<li>`
      print +=
      `
      <section class="card-panel teal black col s12">
